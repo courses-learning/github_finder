@@ -18,6 +18,7 @@ searchUser.addEventListener('keyup', (e) => {
                     console.log('found')
                     // show profile
                     ui.showProfile(data.profile);
+                    ui.showRepos(data.repos);
                     break
             }
         })
